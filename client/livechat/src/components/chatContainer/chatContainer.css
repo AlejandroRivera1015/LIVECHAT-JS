@@ -1,0 +1,38 @@
+.chatContainerWrapper{
+    background: transparent;
+    color: white;
+ 
+}
+
+.createNewConversation input,.createNewConversation button {border: solid 1px white; background: transparent; color:white; border-radius:30px;  height: 40px; color: white; font-size: 20PX; padding: 0 20px; }
+
+.createNewConversation button{ width: 200px; background: var(--fourth-color);}
+
+
+.userPanel{
+    background: black;justify-content: center;
+}
+
+@media(min-width:1080px){
+
+    .chatContainerWrapper{
+
+        width: 100%;
+        margin:  auto;
+    }
+
+    .chatContainerWrapper{
+        display: flex;
+        gap: 30px;
+    }
+
+    .userPanel{
+        width: 40%;
+        height: 100vh;
+        padding: 40px;
+
+    }
+    .chatPanel{
+        width: 60%;
+    }
+}
